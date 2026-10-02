@@ -1,0 +1,49 @@
+{
+  "n_paths": 10000,
+  "par_rates": {
+    "payer_5y": 0.042444103275057314,
+    "receiver_3y": 0.0424441032750573
+  },
+  "hazard_rates": {
+    "1.0": 0.014971945115337532,
+    "3.0": 0.02525747190028196,
+    "5.0": 0.030830194444576468
+  },
+  "exposure_gross": {
+    "EPE": 398054.1996922822,
+    "EEPE": 431364.3060937918,
+    "peak_EE": 683387.2173338255,
+    "peak_EE_time": 1.7307692308,
+    "peak_PFE_97.5pc": 2798125.6819690648,
+    "peak_PFE_time": 1.7307692308
+  },
+  "exposure_netted": {
+    "EPE": 279952.458772076,
+    "EEPE": 257076.56100627148,
+    "peak_EE": 499239.76322995196,
+    "peak_EE_time": 2.7307692308,
+    "peak_PFE_97.5pc": 2382495.172782549,
+    "peak_PFE_time": 2.2307692308
+  },
+  "exposure_collateralised": {
+    "EPE": 226728.1329509803,
+    "EEPE": 236543.47147144444,
+    "peak_EE": 386303.39446432533,
+    "peak_EE_time": 2.0192307692,
+    "peak_PFE_97.5pc": 1440880.3826156294,
+    "peak_PFE_time": 1.5192307692
+  },
+  "netting_benefit_peak_pfe_pc": 14.853889940141386,
+  "collateral_benefit_peak_pfe_pc": 39.52221187786059,
+  "cva_uncollateralised": 18232.97307239534,
+  "cva_uncollateralised_bp": 3.646594614479068,
+  "cva_collateralised": 14674.245783068249,
+  "cva_collateralised_bp": 2.93484915661365,
+  "cva_wrong_way": {
+    "beta_0": 18211.057495689813,
+    "beta_25": 24894.751907874317,
+    "beta_50": 32532.128697336164,
+    "beta_100": 47593.45086932473
+  },
+  "wwr_uplift_beta100_pc": 161.34369671057894
+}
